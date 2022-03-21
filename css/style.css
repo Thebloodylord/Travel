@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#header{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    background: linear-gradient(rgba(255, 0, 146, 0.8),rgba(255, 0, 146, 0.8));
+} 
+.logo-part{
+    width: 25%;
+    float: left;
+}
+.logo-part img{
+    height: 80px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+}
+.menu-part ul{
+    text-align: center;
+
+}
+.menu-part ul li{
+    display: inline-block;
+    margin-top: 23px;
+}
+.menu-part ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .2s;
+
+}
+.menu-part ul li a:hover{
+    color: black;
+}
+.search-part{
+    width: 25%;
+    float: left;
+    text-align: end;
+}
+.search-part i{
+    font-size: 20px;
+    margin-top: 23px;
+    cursor: pointer;
+    transition: .5s;
+}
+.search-part i:hover{
+    color: white;
+}
+#hero{
+    width: 100%;
+    float: left;
+    /* background-image: url(../baku.3.jpg);   */
+    /* padding: 100px 0px; */
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../baku.3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh;
+}
+.hero_writing_part{
+    margin-top: 20px;
+    padding: 40px 0;
+}
+
+.hero_writing_part h1{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.hero_writing_part p{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    width: 70%;
+}
+.btn {
+    padding: 10px 55px;
+    border-radius: 50px;
+    margin-top: 19px;
+    display: inline-block;
+    font-size: 20px;
+    background: linear-gradient(to right,rgb(191, 0, 252),rgb(253, 36, 241));
+    color: #fff;
+    transition: .5s;
+  }
+  .btn:hover{
+    background: linear-gradient(to right,rgb(253, 36, 241),rgb(191, 0, 252));
+  }
+/* about.part */
+
+.about_box{
+
+}
+.about_box img{
+    
+}
+.about_box h2{
+
+}
+.about_box p{
+
+}
+  
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#header{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    background: linear-gradient(rgba(255, 0, 146, 0.8),rgba(255, 0, 146, 0.8));
+} 
+.logo-part{
+    width: 25%;
+    float: left;
+}
+.logo-part img{
+    height: 80px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+}
+.menu-part ul{
+    text-align: center;
+
+}
+.menu-part ul li{
+    display: inline-block;
+    margin-top: 23px;
+}
+.menu-part ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .2s;
+
+}
+.menu-part ul li a:hover{
+    color: black;
+}
+.search-part{
+    width: 25%;
+    float: left;
+    text-align: end;
+}
+.search-part i{
+    font-size: 20px;
+    margin-top: 23px;
+    cursor: pointer;
+    transition: .5s;
+}
+.search-part i:hover{
+    color: white;
+}
+#hero{
+    width: 100%;
+    float: left;
+    /* background-image: url(../baku.3.jpg);   */
+    /* padding: 100px 0px; */
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../baku.3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh;
+}
+.hero_writing_part{
+    margin-top: 20px;
+    padding: 40px 0;
+}
+
+.hero_writing_part h1{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.hero_writing_part p{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    width: 70%;
+}
+.btn {
+    padding: 10px 55px;
+    border-radius: 50px;
+    margin-top: 19px;
+    display: inline-block;
+    font-size: 20px;
+    background: linear-gradient(to right,rgb(191, 0, 252),rgb(253, 36, 241));
+    color: #fff;
+    transition: .5s;
+  }
+  .btn:hover{
+    background: linear-gradient(to right,rgb(253, 36, 241),rgb(191, 0, 252));
+  }
+/* about.part */
+#about{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.about_writing_part{
+    width: 100%
+    float: left;
+    margin-bottom: 50px;
+}
+.about_writing_part h2{ 
+    font-size: 50px;
+    text-align: uppercase;
+}
+.about_writing_part p{
+    width: 60%;
+    margin: auto;
+}
+.about_box_part{
+    width:100%;
+    float: left;
+}
+.about_box{
+    width: 30%;
+    float: left;
+    margin: 0px 20px;
+    background: #740808;
+    border-radius: 10px;
+    overflow: hidden;
+}
+ .about_box img{
+    width: 100%;
+    height: 400px;
+}
+.about_box h2{
+    font-size: 23px;
+    color: white;
+}
+.about_box p {
+    font-size: 20px;
+    padding: 13px 0;
+    color: #ffff;
+  }
+  
+  
+  /* pricing part start hrere  */
+  #pricing{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url(../img/bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100px;
+    
+}
+.about_writing_part{
+    width: 100%
+    float: left;
+    margin-bottom: 50px;
+}
+.pricing_writing_part h2{
+    color: #fff;
+}
+.pricing_writing_part p{
+    color: #fff;
+    padding: 40px 0;
+}
+.pricing_box_part {
+    background: #fb520a;
+}
+.pricing_writing_part h2{ 
+    font-size: 50px;
+    text-align: uppercase;
+}
+.pricing_writing_part p{
+    width: 60%;
+    margin: auto;
+}
+.pricing_box{
+    width:100%;
+    float: left;
+    padding-bottom: 20px;
+}
+.pricing_box i{
+    font-size: 60px;
+    padding: 50px 10px 20px;
+    color: #fff;
+}
+.pricing_box{
+    width: 30%;
+    float: left;
+    margin: 0px 20px;
+    background: #fb520a;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.pricing_box h2{
+    font-size: 30px;
+    color: #fff;
+}
+.pricing_box p{
+    font-size: 16px;
+}
+.pricing_box .btn{
+    padding: 3px 55px;
+    cursor: pointer;
+}
+
+/* big footer part star  */
+.big_footer{
+    padding: 30px 0;
+    width: 100%;
+    float: left;
+}
+.big_footer .footer_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border: 1px solid;
+} 
+
+.big_footer .footer_box p{
+    width: 50%;
+}
+
+
+
+
+
+
